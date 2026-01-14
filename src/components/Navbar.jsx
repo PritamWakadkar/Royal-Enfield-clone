@@ -5,8 +5,7 @@ import Rigthpart from './Rigthpart'
 
 function Navbar() {
   return (
-    <div className='bg-black flex items-center justify-between text-white h-20 w-full fixed
-     '>
+    <div className='bg-black flex items-center justify-between text-white h-20 w-screen fixed z-50 top-0 left-0'>
       <Leftpartnav />
       <Middlepart />
       <Rigthpart />
