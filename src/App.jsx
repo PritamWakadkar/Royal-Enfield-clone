@@ -11,6 +11,7 @@ import Explore from './pages/Explore'
 import Map from './pages/Map' 
 import Location from './pages/Location'
 import Account from './pages/Account'
+import Fourtpart from './pages/Fourtpart'
 
 
 
@@ -38,6 +39,7 @@ const [img, setImg] = useState(0)
          <Route path='/map' element={<Map />}/>
          <Route path='/location'  element={<Location />} />
           <Route path='/account' element={<Account />} />
+          <Route path='/knowmore' element={<Fourtpart />} />
 
 
         </Routes>

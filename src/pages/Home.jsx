@@ -3,6 +3,8 @@ import Backgroundimg from './Backgroundimg'
 import Secondpart from './Secondpart'
 import { Outdent } from 'lucide-react'
 import Thirdpart from './Thirdpart'
+import Fourtpart from './Fourtpart'
+import Fifthhpart from './Fifthhpart'
 
 const Home = () => {
   return (
@@ -11,7 +13,8 @@ const Home = () => {
       
       <Secondpart />
        <Thirdpart />
-     
+      <Fourtpart />
+      <Fifthhpart />
     </div>
   )
 }
